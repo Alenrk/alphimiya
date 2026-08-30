@@ -195,14 +195,14 @@ with st.sidebar:
     w_heart = st.slider("وزن توافق القلب-العقل", 0.0, 1.0, DEFAULT_WEIGHTS["heart_brain"], 0.05)
     w_hemi = st.slider("وزن تزامن الفصين", 0.0, 1.0, DEFAULT_WEIGHTS["hemispheric"], 0.05)
     w_gamma = st.slider("وزن نشاط طفرات غاما", 0.0, 1.0, DEFAULT_WEIGHTS["gamma"], 0.05)
-    alert_threshold = st.slider("عتبة التنبيه (%)", 50, 95, 75, 5)
+    alert_threshold = st.slider("عتبة التنبيه (%)",  20, 95, 75, 5)
 
 st.markdown(
     """
     <div class="app-hero">
         <div class="brand-kicker">ALPHIMIYA<span>®</span></div>
         <h1>✨ الفيمياء — توافق القلب والعقل · طفرات جاما · تزامن الفصين</h1>
-        <p>تحليل متقدم للتيقظ والتكيف العصبي من بيانات Muse 2 — مستوحى من أبحاث د. جو ديسبنزا والدراسات المتقدمة على الدماغ أثناء التأمل، ومقدَّم كجزء من منهجية ALPHIMIYA® لدمج الخيمياء الداخلية بالعلوم العصبية.</p>
+        <p>تحليل متقدم للتيقظ والتكيف العصبي من بيانات Muse 2 — مستوحى من أبحاث الفيمياء والدراسات المتقدمة على الدماغ أثناء التأمل، ومقدَّم كجزء من منهجية ALPHIMIYA® لدمج الخيمياء الداخلية بالعلوم العصبية.</p>
     </div>
     """,
     unsafe_allow_html=True,
